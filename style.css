@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background: #444;
+  }
+  h1, h2{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    margin: 2rem auto;
+    color: #fff;
+  }
+  h2{
+    font-size: 28px;
+  }
+
+  .selectbox{
+    display: block;
+    width: 80%;
+    padding: 1rem;
+    margin: 2rem auto;
+    text-align: center;
+    max-width: 600px;
+  }
+  .selectbox option{
+    text-align: center
+  }
+
+  
+h1:after{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 30%;
+  height: 4px;
+  background: linear-gradient(90deg, #00f, #fd9d12, #ed1230, #0080aa);
+
+}
+.global-cases, .country-cases{
+  padding: 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+.country-container{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fff;
+  max-width: 1400px;
+  margin: auto;
+}
+.country-container>div{
+  margin: .5rem;
+  width: calc(50% - 1rem);
+  min-width: 380px;
+}
+canvas{
+  background: #111;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #222;
+}
+.country-container div:first-child canvas{
+  background: #2d2e4d;
+}
+.country-container div:nth-of-type(2) canvas{
+  background: #699a68;
+}
+.country-container div:last-child canvas{
+  background: #a87575;
+}
+
+.container {
+  padding: 200px;
+ }
+ 
+ .faq-drawer {
+   margin-bottom: 30px;
+ }
+ 
+ .faq-drawer__content-wrapper {
+   font-size: 1.25em;
+   line-height: 1.4em;
+   max-height: 0px;
+   overflow: hidden;
+   transition: 0.25s ease-in-out;
+ }
+ 
+ .faq-drawer__title {
+   border-top: #000 1px solid;
+   cursor: pointer;
+   display: block;
+   font-size: 1.25em;
+   font-weight: 700;
+   padding: 30px 0 0 0;
+   position: relative;
+   margin-bottom: 0;
+   transition: all 0.25s ease-out;
+ }
+ 
+ .faq-drawer__title::after {
+   border-style: solid;
+   border-width: 1px 1px 0 0;
+   content: " ";
+   display: inline-block;
+   float: right;
+   height: 10px;
+   left: 2px;
+   position: relative;
+   right: 20px;
+   top: 2px;
+   transform: rotate(135deg);
+   transition: 0.35s ease-in-out;
+   vertical-align: top;
+   width: 10px;
+ }
+ 
+ /* OPTIONAL HOVER STATE */
+ .faq-drawer__title:hover { 
+   color: #4E4B52  ;
+ }
+ 
+ .faq-drawer__trigger:checked
+   + .faq-drawer__title
+   + .faq-drawer__content-wrapper {
+   max-height: 350px;
+ }
+ 
+ .faq-drawer__trigger:checked + .faq-drawer__title::after {
+   transform: rotate(-45deg);
+   transition: 0.25s ease-in-out;
+ }
+ 
+ input[type="checkbox"] {
+   display: none;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+   .container {
+     padding: 80px;
+   }
+ }
+
+ footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #999;
+  transform: translate(-50%, -50%);
+}
+
+  
