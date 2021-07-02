@@ -5,7 +5,7 @@
     font-family: monospace;
 }
 body{
-    background: #444;
+    background: #166466;
   }
   h1, h2{
     text-align: center;
@@ -110,7 +110,6 @@ canvas{
    border-width: 1px 1px 0 0;
    content: " ";
    display: inline-block;
-   float: right;
    height: 10px;
    left: 2px;
    position: relative;
@@ -149,11 +148,22 @@ canvas{
  }
 
  footer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: #999;
-  transform: translate(-50%, -50%);
+  padding-top: 20px;
+  margin-bottom: 2%;
+  height: 80px;
+	text-align: center;
+	background-color: #166466;
+	color: rgb(300,300,300);
+  font-size: 18px;
+}
+
+b{
+  color: rgb(133, 29, 29);
+}
+
+iframe{
+  width: 100%;
+  height: 600px;
 }
 
   
