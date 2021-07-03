@@ -1,6 +1,6 @@
 function drawChart(Canvas, labels, label, data, backgroundColor, type) {
   let myChart = new Chart(Canvas, {
-    type: type || 'bar',
+    type: type || 'line',
     data: {
       labels,
       datasets: [{
@@ -10,13 +10,14 @@ function drawChart(Canvas, labels, label, data, backgroundColor, type) {
       }]
     },
     options: {
+      
       scales: {
         xAxes: [{
           gridLines: {
               // display: false,
               color: 'transparent',
 
-              zeroLineColor: '#ffcc33'
+              zeroLineColor: '#000'
           },
           ticks: {
             fontColor: "#fff"

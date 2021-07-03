@@ -6,8 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid-Data-Chart</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+
+    <header>
+        <nav>
+          <div class="logo"><h1 style="font-size: 4.4em;">CORONA</h1></div>
+        </nav>
+        <div class="main">
+          <div class="main-left">
+            <div class="text">
+              <span>Corona</span>
+              <p>
+                The virus is from the CoronaViridae family<br />
+                and has the greatest effect on the human<br />
+                respiratory system.
+              </p>
+            </div>
+          </div>
+          <div class="main-right">
+            <img class="img-v" src="http://www.pngall.com/wp-content/uploads/4/Coronavirus-Germs-PNG-File.png" alt=""/>
+            <p>COVID-19</p>
+          </div>
+        </div>
+    </header>
 
     <h1>Covid Data Chart</h1>
     <div class="global-cases">
@@ -18,11 +41,11 @@
     <select class="selectbox" name=""></select>
     
     <div class="country-cases">
-        <h2><span class="country-name">Egypt</span>cases</h2>
+        <h2><span class="country-name">Egypt </span> cases</h2>
         <canvas id="country"></canvas>
     </div>
 
-    <h1>last 10 days in <span class="country-name">Egypt</span></h1>
+    <h1>Last 10 days in <span class="country-name"></span></h1>
 
     <div class="country-container">
         <div class="">
@@ -42,82 +65,110 @@
     </div>
 
     <div class="container">
+    <h1>Prevention of Coronavirus</h1> 
     
-        <h1>faq</h1>
-        
-        <div class="faq-drawer">
-          <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">What are Coronaviruses? </label>
-          <div class="faq-drawer__content-wrapper">
+      
+      <h2>How to Protect Yourself</h2>
+     
+      <div class="animatediv"> 
+      <img src="https://atheistiran.com/wp-content/uploads/2020/03/corona-virus.png">
+      </div>
+    <h2 style="font-size: 5.4em;"># Use Mask.<br># Wash Your Hands<br># Maintain social distance.</h2>  
+</div>
+
+<div class="container">
+    <h2>How to book a vaccine</h2>
+  <iframe src="https://www.youtube.com/embed/io-oreIAuTM" frameborder="0" ></iframe>
+</div>
+
+<div class="container">
+    <h1>faq</h1>
+    <div class="faq-drawer">
+        <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">What are Coronaviruses? </label>
+        <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+            <p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV). A novel coronavirus (nCoV) is a new strain that has not been previously identified in humans.<p>
+        </div>
+        </div>
+    </div>
+    <div class="faq-drawer">
+        <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-2">How does COVID-19 spread?
+        </label>
+        <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+            <p>Current evidence suggests that the virus spreads mainly between people who are in close contact with each other, typically within 1 metre (short-range). A person can be infected when aerosols or droplets containing the virus are inhaled or come directly into contact with the eyes, nose, or mouth.</p>
+        </div>
+        </div>
+    </div>
+    <div class="faq-drawer">
+        <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">What are the organs most affected by COVID‐19?</label>
+        <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+            <p>The lungs are the organs most affected by COVID‐19.</p>
+        </div>
+        </div>
+    </div>
+    <div class="faq-drawer">
+        <input class="faq-drawer__trigger" id="faq-drawer-4" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-4">What are some of the symptoms of COVID-19?</label>
+        <div class="faq-drawer__content-wrapper">
             <div class="faq-drawer__content">
-              <p>
-                Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV). A novel coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+            <p>
+                Most people who are infected with the SARS-CoV-2 virus have respiratory symptoms. They start to feel a little bit unwell, they will have a fever, they may have a cough or a sore throat or sneeze. In some individuals, they may have gastrointestinal symptoms. Others may lose the sense of smell or the sense of taste.                </p>
+            </div>
+        </div>
+        </div>
+        <div class="faq-drawer">
+        <input class="faq-drawer__trigger" id="faq-drawer-5" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-5">Which Covid variant is most dangerous?</label>
+        <div class="faq-drawer__content-wrapper">
+            <div class="faq-drawer__content">
+            <p>
+                Dr. Anthony Fauci, director of the National Institute of Allergy and Infectious Diseases, said during a White House briefing on June 22 that the Delta variant is the “greatest threat” in the world's efforts to contain COVID-19.
             </p>
             </div>
-          </div>
         </div>
-        
+        </div>
         <div class="faq-drawer">
-          <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-2">How does COVID-19 spread?
-          </label>
-          <div class="faq-drawer__content-wrapper">
+        <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-6">Will I test positive after Covid vaccine?</label>
+        <div class="faq-drawer__content-wrapper">
             <div class="faq-drawer__content">
-              <p>
-                Current evidence suggests that the virus spreads mainly between people who are in close contact with each other, typically within 1 metre (short-range). A person can be infected when aerosols or droplets containing the virus are inhaled or come directly into contact with the eyes, nose, or mouth.
-            </p>
+            <p>Getting vaccinated won't make you show up as positive on PCR tests. That's because these tests look for copies of the genetic material of the virus as an indication that you have been infected.</p>
             </div>
-          </div>
         </div>
-        
-        <div class="faq-drawer">
-          <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">What are the organs most affected by COVID‐19?</label>
-          <div class="faq-drawer__content-wrapper">
-            <div class="faq-drawer__content">
-              <p>
-                The lungs are the organs most affected by COVID‐19
-              </p>
-            </div>
-          </div>
         </div>
-        
-        <div class="faq-drawer">
-            <input class="faq-drawer__trigger" id="faq-drawer-4" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-4">What are some of the symptoms of COVID-19?</label>
-            <div class="faq-drawer__content-wrapper">
-              <div class="faq-drawer__content">
-                <p>
-                    Most people who are infected with the SARS-CoV-2 virus have respiratory symptoms. They start to feel a little bit unwell, they will have a fever, they may have a cough or a sore throat or sneeze. In some individuals, they may have gastrointestinal symptoms. Others may lose the sense of smell or the sense of taste.                </p>
-              </div>
-            </div>
-          </div>
+    </div>
 
-          <div class="faq-drawer">
-            <input class="faq-drawer__trigger" id="faq-drawer-5" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-5">Which Covid variant is most dangerous?</label>
-            <div class="faq-drawer__content-wrapper">
-              <div class="faq-drawer__content">
-                <p>
-                    Dr. Anthony Fauci, director of the National Institute of Allergy and Infectious Diseases, said during a White House briefing on June 22 that the Delta variant is the “greatest threat” in the world's efforts to contain COVID-19.
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <div class="faq-drawer">
-            <input class="faq-drawer__trigger" id="faq-drawer-6" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-6">Will I test positive after Covid vaccine?</label>
-            <div class="faq-drawer__content-wrapper">
-              <div class="faq-drawer__content">
-                <p>
-                    Getting vaccinated won't make you show up as positive on PCR tests. That's because these tests look for copies of the genetic material of the virus as an indication that you have been infected.                </p>
-              </div>
-            </div>
-          </div>
-      </div>
 
-      <div class="container">
-          <h2>How to book a vaccine</h2>
-        <iframe src="https://www.youtube.com/embed/io-oreIAuTM" frameborder="0" ></iframe>
-      </div>
-      <footer>
-          <p>For statical information purpose</p>
-          <p>© 2020 Created by <b>Mukesh Bishnoi</b> with 💗. </p>
+    <footer>
+        <h1>More Information?</h1>
+        <table class="table">
+            <tr padding:40px;>
+            <th>WHO</th>
+            <th>CORONAVIRUS OUTBREAK</th> 
+            <th>Novel Coronavirus Situation</th>
+            </tr>
+            <tr>
+            <td padding:40px;>
+                <a href="https://www.who.int">
+                <img src="https://devpolicy.org/wp-content/uploads/2015/02/image13.png" alt="world health organization" style="width:100px">
+                </a>
+            </td>
+            <td>
+                <a href="https://www.worldometers.info/coronavirus/">
+                <img src="https://www.worldometers.info/img/worldometers-logo.gif">
+                </a>
+                </td>
+            <td>
+                <a href="https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd">
+                <img src="https://experience.arcgis.com/site/widgets/landing/dist/runtime/assets/exb-logo.png" style="width:100px">
+                </a>
+                </td>
+            </tr>
+        </table>
+        <div class="container">
+            <p>For statical information purpose</p>
+            <p>© 2020 Created by <b>Mukesh Bishnoi</b> with 💗. </p>
+        </div>
     </footer>
     
     <script src="js/libs/chart.min.js"></script>

@@ -103,3 +103,7 @@ function GlobalCases() {
   GetCaseTypeForCountry('deaths', 'egypt');
   GetCaseTypeForCountry('recovered', 'egypt');
   
+
+
+
+  

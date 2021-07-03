@@ -5,7 +5,76 @@
     font-family: monospace;
 }
 body{
-    background: #166466;
+    background: #fe9a99;
+  }
+
+  header {
+    position: relative;
+  }
+  
+  nav {
+    background: #fe9a99;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+  }
+  .logo {
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .logo h1 {
+    letter-spacing: 2px;
+    font-size: 30px;
+  }
+  
+  .main {
+    background: #fe9a99;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .main-left {
+    height: 100%;
+    width: 50%;
+  }
+  .main-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-v {
+    height: 30vw;
+    width: 30vw;
+  }
+  
+  .main-right p {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  
+  .text {
+    margin-left: 18%;
+    padding-top: 32%;
+  }
+  
+  .text span {
+    font-size: 7vw;
+    letter-spacing: 25px;
+    font-weight: bold;
+  }
+  
+  .text p {
+    padding-top: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 25px;
   }
   h1, h2{
     text-align: center;
@@ -19,6 +88,7 @@ body{
   }
 
   .selectbox{
+    background-color: #a87575;
     display: block;
     width: 80%;
     padding: 1rem;
@@ -63,26 +133,34 @@ h1:after{
   min-width: 380px;
 }
 canvas{
-  background: #111;
+  background: rgb(148, 122, 122);
   border-radius: 15px;
   box-shadow: 0 0 10px #222;
 }
 .country-container div:first-child canvas{
-  background: #2d2e4d;
+  background: #babd0a;
 }
 .country-container div:nth-of-type(2) canvas{
-  background: #699a68;
+  background: #5db45c;
 }
 .country-container div:last-child canvas{
-  background: #a87575;
+  background: rgb(206, 39, 39);
 }
 
 .container {
-  padding: 200px;
+  padding: 40px 200px ;
+ }
+
+ .animatediv{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
  }
  
  .faq-drawer {
    margin-bottom: 30px;
+   color:white;
  }
  
  .faq-drawer__content-wrapper {
@@ -123,7 +201,7 @@ canvas{
  
  /* OPTIONAL HOVER STATE */
  .faq-drawer__title:hover { 
-   color: #4E4B52  ;
+   color: black;  ;
  }
  
  .faq-drawer__trigger:checked
@@ -152,9 +230,19 @@ canvas{
   margin-bottom: 2%;
   height: 80px;
 	text-align: center;
-	background-color: #166466;
-	color: rgb(300,300,300);
+	background-color: #fe9a99;
+	color: white;
   font-size: 18px;
+}
+.table{
+  width: 100%;
+  border-spacing: 25px;
+  display: inline;
+  padding:40px;
+}
+
+tr{
+  
 }
 
 b{
@@ -162,6 +250,7 @@ b{
 }
 
 iframe{
+  
   width: 100%;
   height: 600px;
 }
